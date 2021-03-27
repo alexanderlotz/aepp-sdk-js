@@ -3,8 +3,10 @@
   "version": "7.7.0",
   "description": "SDK for the æternity blockchain",
   "main": "dist/aepp-sdk.js",
-  "browser": "dist/aepp-sdk.browser.js",
   "module": "es/index.js",
+  "browser": {
+    "dist/aepp-sdk.js": "./dist/aepp-sdk.browser.js"
+  },
   "sideEffects": false,
   "scripts": {
     "build": "webpack -p",

@@ -20,7 +20,7 @@
  *
  * @module @aeternity/aepp-sdk/es/contract/aci
  * @export ContractACI
- * @example import ContractACI from '@aeternity/aepp-sdk/es/contract/aci'
+ * @example import { ContractACI } from '@aeternity/aepp-sdk'
  */
 
 import * as R from 'ramda'
